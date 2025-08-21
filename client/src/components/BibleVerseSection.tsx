@@ -57,7 +57,7 @@ const BibleVerseSection = () => {
                     <p className="text-sm text-gray-600 font-handwriting">
                       {index === 0 && "Mga Sandaling Hindi Malilimutan"}
                       {index === 1 && "Simula ng Bagong Kabanata"}
-                      {index === 2 && "Simula ng Bagong Kabanata"}
+                      {index === 2 && "Isang Pangakong Habambuhay"}
                     </p>
                   </div>
                 </div>
