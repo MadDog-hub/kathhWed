@@ -55,12 +55,6 @@ const TimelineSection = () => {
             style={{ fontFamily: '"Great Vibes", "Dancing Script", "Brush Script MT", cursive', fontWeight: 400, letterSpacing: '0.05em' }}
             data-testid="text-timeline-title"
           >Tinatayang Takbo ng Selebrasyon</h2>
-          <p className="text-xl text-muted-foreground font-body">
-            Pagmamahal na Walang Hanggan
-          </p>
-          <p className="text-xl text-muted-foreground font-body">
-            Simula ng Bagong Kabanata
-          </p>
         </div>
 
         {/* Timeline */}
