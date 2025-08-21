@@ -1,0 +1,368 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Elegant Wedding Design System */
+
+@layer base {
+  :root {
+    /* Filipiniana Beige & Brown Theme */
+    --background: 38 26% 91%; /* #F9EEE2 - Light beige */
+    --foreground: 30 25% 20%; /* #3D2914 - Dark brown text */
+
+    /* Card Colors */
+    --card: 36 25% 88%; /* #E8DCC6 - Slightly darker beige */
+    --card-foreground: 30 25% 20%; /* #3D2914 - Dark brown text */
+
+    /* Popover Colors */
+    --popover: 38 26% 91%; /* #F9EEE2 - Light beige */
+    --popover-foreground: 30 25% 20%; /* #3D2914 - Dark brown text */
+
+    /* Primary Colors */
+    --primary: 25 45% 35%; /* #8B4513 - Rich brown */
+    --primary-foreground: 38 26% 91%; /* #F9EEE2 - Light beige text */
+
+    /* Secondary Colors */
+    --secondary: 36 25% 88%; /* #E8DCC6 - Medium beige */
+    --secondary-foreground: 30 25% 20%; /* #3D2914 - Dark brown text */
+
+    /* Muted Colors */
+    --muted: 42 33% 85%; /* #E4D5B7 - Muted beige */
+    --muted-foreground: 30 25% 40%; /* #665542 - Medium brown for subtle text */
+
+    /* Accent Colors */
+    --accent: 28 50% 45%; /* #A0522D - Sienna brown */
+    --accent-foreground: 38 26% 91%; /* #F9EEE2 - Light beige text */
+
+    /* Gold/Special Accent - warm brown tones */
+    --gold: 25 45% 35%; /* #8B4513 - Rich brown */
+    --gold-foreground: 38 26% 91%; /* #F9EEE2 - Light beige text */
+
+    /* Dress Code Palette - Filipiniana colors */
+    --warm-brown: 25 45% 35%; /* #8B4513 - Rich brown */
+    --medium-brown: 28 50% 45%; /* #A0522D - Sienna brown */
+    --dusty-rose: 12 50% 70%; /* #DDB398 - Dusty rose */
+    --rose-brown: 15 40% 60%; /* #C9A876 - Rose brown */
+    --muted-pink: 20 45% 75%; /* #E4C2A0 - Muted pink */
+    --soft-blush: 25 40% 80%; /* #E8D5C4 - Soft blush */
+    --brick-red: 15 55% 55%; /* #B8956A - Brick red */
+    --soft-pink: 18 50% 78%; /* #E6D2C1 - Soft pink */
+
+    /* Destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: 0 0% 25%; /* lighter than #333333 */
+    --input: 0 0% 20%; /* #333333 */
+    --ring: 0 0% 100%; /* #ffffff */
+
+    /* Border Radius */
+    --radius: 0.75rem;
+
+    /* Filipiniana Gradients */
+    --gradient-elegant: linear-gradient(135deg, #F9EEE2, #E8DCC6);
+    --gradient-gold: linear-gradient(135deg, #8B4513, #A0522D);
+    --gradient-warm: linear-gradient(135deg, #F9EEE2, #DDB398);
+
+    /* Filipiniana Shadows */
+    --shadow-elegant: 0 20px 50px -10px rgba(139, 69, 19, 0.3);
+    --shadow-soft: 0 10px 30px -5px rgba(139, 69, 19, 0.2);
+    --shadow-warm: 0 15px 40px -8px rgba(160, 82, 45, 0.25);
+
+    /* Elegant Typography Scale */
+    --font-display: 'Playfair Display', 'Cormorant Garamond', serif;
+    --font-script: 'Cormorant Garamond', serif;
+    --font-times: 'Times New Roman', Times, serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+
+    /* Smooth Transitions */
+    --transition-elegant: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 9%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary-foreground: 0 0% 9%;
+    --sidebar-accent: 0 0% 20%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 25%;
+    --sidebar-ring: 0 0% 100%;
+  }
+
+  /* Custom Wedding Animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInScale {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes underlineGold {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes parallaxFloat {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    outline: none !important;
+  }
+
+  html {
+    @apply bg-background;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    font-family: var(--font-body);
+  }
+
+
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .font-script {
+    font-family: var(--font-script);
+  }
+
+  .font-times {
+    font-family: var(--font-times);
+  }
+
+  /* Mobile-First Responsive Typography */
+  .text-hero {
+    @apply text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-display font-light tracking-tight;
+    line-height: 0.9;
+    letter-spacing: 0.15em;
+  }
+
+  .text-hero-script {
+    @apply text-3xl sm:text-4xl lg:text-5xl font-script font-normal italic;
+    line-height: 1.2;
+  }
+
+  .text-subtitle {
+    @apply text-lg sm:text-xl lg:text-2xl font-body font-light tracking-wider;
+    letter-spacing: 0.05em;
+  }
+
+  .text-section-title {
+    @apply text-2xl sm:text-3xl lg:text-4xl font-display font-semibold tracking-tight;
+  }
+
+  .text-elegant-body {
+    @apply text-base sm:text-lg leading-relaxed font-body;
+  }
+
+  /* Animation Classes */
+  .animate-fade-up {
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .animate-fade-scale {
+    animation: fadeInScale 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .animate-float {
+    animation: parallaxFloat 6s ease-in-out infinite;
+  }
+
+  /* Elegant Hover Effects */
+  .hover-elegant {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-lg;
+  }
+
+  .gold-underline {
+    @apply relative;
+  }
+
+  .gold-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 h-0.5;
+    background-color: #ffffff;
+    width: 0;
+    transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .gold-underline.active::after {
+    width: 100%;
+  }
+
+  /* Clean Mobile Styles */
+  @media (max-width: 768px) {
+    * {
+      box-shadow: none !important;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+    }
+
+    img {
+      -webkit-backdrop-filter: none !important;
+      backdrop-filter: none !important;
+      filter: none !important;
+    }
+
+    .shadow-elegant,
+    .shadow-soft,
+    .shadow-warm {
+      box-shadow: none !important;
+    }
+
+    /* Enhanced Mobile Layout Improvements */
+    section {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+
+    .max-w-4xl, .max-w-3xl, .max-w-2xl {
+      max-width: 100% !important;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    /* Countdown section mobile improvements */
+    .grid-cols-4 {
+      gap: 0.5rem !important;
+    }
+
+    /* Card padding adjustments */
+    .p-8 {
+      padding: 1rem !important;
+    }
+
+    .p-6 {
+      padding: 0.75rem !important;
+    }
+
+    /* Image sizing for mobile */
+    .w-64 {
+      width: 12rem !important;
+    }
+
+    .h-64 {
+      height: 12rem !important;
+    }
+
+    /* Typography adjustments */
+    .text-4xl {
+      font-size: 2rem !important;
+    }
+
+    .text-5xl {
+      font-size: 2.5rem !important;
+    }
+
+    .text-6xl {
+      font-size: 3rem !important;
+    }
+
+    /* Hero section specific mobile fixes */
+    .hero-section {
+      background-attachment: scroll !important;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    /* Slideshow mobile fixes - exactly like video */
+    #slideshow img {
+      display: block !important;
+      width: 100% !important;
+      height: auto !important;
+      object-fit: contain !important;
+      object-position: top !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    @apply rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* Remove any glass/overlay effects and unwanted borders */
+  *::before,
+  *::after {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  /* Fix the red border issue */
+  section {
+    border: none !important;
+    outline: none !important;
+  }
+
+  /* Allow Tailwind dark mode classes to work properly */
+
+
+
+  /* Restore proper border-radius for UI elements that need it */
+  .rounded-lg {
+    border-radius: 0.5rem !important;
+  }
+
+  .rounded-xl {
+    border-radius: 0.75rem !important;
+  }
+
+  .rounded-2xl {
+    border-radius: 1rem !important;
+  }
+
+  /* Remove focus outlines that might appear as red borders */
+  *:focus,
+  *:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
