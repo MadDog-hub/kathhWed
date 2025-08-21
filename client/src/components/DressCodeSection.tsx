@@ -48,7 +48,7 @@ const DressCodeSection = () => {
                   <p className="text-base text-muted-foreground">Kulay: Beige/Kayumanggi</p>
                 </div>
                 <img 
-                  src="https://res.cloudinary.com/dhasfjr8x/image/upload/v1755613877/4798e8ec-65e6-465e-83f4-243fde834982_z7qxfo.png"
+                  src="/attached_assets/531625070_1858753418023745_5424491117437935613_n_1755783236203.jpg"
                   alt="Principal Sponsors attire guide"
                   className="w-full max-w-2xl mx-auto object-contain mb-6 rounded-lg mt-6"
                 />
