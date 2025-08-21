@@ -61,7 +61,7 @@ const EntourageSection = () => {
               Mga Abay na Lalake
             </h3>
             <div className="text-center mb-6 md:mb-8">
-              <p className="text-base md:text-lg text-foreground font-bold mb-4">Joemari Balaoro</p>
+              <p className="md:text-lg text-foreground font-bold mt-[-5px] mb-[-5px] text-[16px]">Joemari Balaoro</p>
               <h4 className="text-xl md:text-2xl font-display font-semibold text-primary mb-6" data-testid="text-best-man-title">Piling Maginoo</h4>
               <div className="space-y-2">
                 <p className="text-base md:text-lg text-foreground">Cedric Garcia</p>
