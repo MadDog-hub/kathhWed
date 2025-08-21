@@ -117,10 +117,7 @@ const EntourageSection = () => {
                 <h4 className="text-lg md:text-xl font-display font-semibold text-primary mb-3">Munting Ginoo ng Singsing</h4>
                 <p className="text-base md:text-lg text-foreground">Rylle Teddy Gerodias</p>
               </div>
-              <div>
-                <h4 className="text-lg md:text-xl font-display font-semibold text-primary mb-3">Paring Nagkakasal</h4>
-                <p className="text-base md:text-lg text-foreground">Rev. Fr. Wilson T. Lagare</p>
-              </div>
+              
             </div>
           </div>
         </div>
