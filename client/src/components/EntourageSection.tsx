@@ -62,7 +62,7 @@ const EntourageSection = () => {
             </h3>
             <div className="text-center mb-6 md:mb-8">
               <p className="text-base md:text-lg text-foreground font-bold mb-4">Joemari Balaoro</p>
-              <h4 className="text-xl md:text-2xl font-display font-semibold text-primary mb-4" data-testid="text-best-man-title">Piling Maginoo</h4>
+              <h4 className="text-xl md:text-2xl font-display font-semibold text-primary mb-6" data-testid="text-best-man-title">Piling Maginoo</h4>
               <div className="space-y-2">
                 <p className="text-base md:text-lg text-foreground">Cedric Garcia</p>
                 <p className="text-base md:text-lg text-foreground">Michael Cabrera</p>
@@ -79,7 +79,7 @@ const EntourageSection = () => {
             </h3>
             <div className="text-center mb-6 md:mb-8">
               <p className="text-base md:text-lg text-foreground font-bold mb-4">Michelle Cabrera</p>
-              <h4 className="text-xl md:text-2xl font-display font-semibold text-primary mb-4" data-testid="text-maid-of-honor-title">Binibining Pandangal</h4>
+              <h4 className="text-xl md:text-2xl font-display font-semibold text-primary mb-6" data-testid="text-maid-of-honor-title">Binibining Pandangal</h4>
               <div className="space-y-2">
                 <p className="text-base md:text-lg text-foreground">Charlotte Cabrera</p>
                 <p className="text-base md:text-lg text-foreground">Abigail Cruz</p>
