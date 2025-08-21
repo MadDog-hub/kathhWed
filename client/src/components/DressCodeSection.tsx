@@ -108,7 +108,7 @@ const DressCodeSection = () => {
           </div>
         </div>
 
-        
+
       </div>
     </section>
   );

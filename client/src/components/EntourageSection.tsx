@@ -61,20 +61,16 @@ const EntourageSection = () => {
               Mga Abay na Lalake
             </h3>
             <div className="text-center mb-6 md:mb-8">
+              <p className="text-base md:text-lg text-foreground font-bold mb-4">Joemari Balaoro</p>
               <h4 className="text-xl md:text-2xl font-display font-semibold text-primary mb-4" data-testid="text-best-man-title">Piling Maginoo</h4>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
-                <div className="space-y-2">
-                  <p className="text-base md:text-lg text-foreground">Joemari Balaoro</p>
-                  <p className="text-base md:text-lg text-foreground">Cedric Garcia</p>
-                  <p className="text-base md:text-lg text-foreground">Michael Cabrera</p>
-                  <p className="text-base md:text-lg text-foreground">Gedion Uranza</p>
-                </div>
-                <div className="space-y-2">
-                  <p className="text-base md:text-lg text-foreground">Glen Carlo Lalogo</p>
-                  <p className="text-base md:text-lg text-foreground">Patrick Jeano Avance</p>
-                  <p className="text-base md:text-lg text-foreground">Sean Gustav Pagaspas</p>
-                  <p className="text-base md:text-lg text-foreground">Sean Kenneth Fernandez</p>
-                </div>
+              <div className="space-y-2">
+                <p className="text-base md:text-lg text-foreground">Cedric Garcia</p>
+                <p className="text-base md:text-lg text-foreground">Michael Cabrera</p>
+                <p className="text-base md:text-lg text-foreground">Gedion Uranza</p>
+                <p className="text-base md:text-lg text-foreground">Glen Carlo Lalogo</p>
+                <p className="text-base md:text-lg text-foreground">Patrick Jeano Avance</p>
+                <p className="text-base md:text-lg text-foreground">Sean Gustav Pagaspas</p>
+                <p className="text-base md:text-lg text-foreground">Sean Kenneth Fernandez</p>
               </div>
             </div>
 
@@ -82,17 +78,13 @@ const EntourageSection = () => {
               Mga Abay na Babae
             </h3>
             <div className="text-center mb-6 md:mb-8">
+              <p className="text-base md:text-lg text-foreground font-bold mb-4">Michelle Cabrera</p>
               <h4 className="text-xl md:text-2xl font-display font-semibold text-primary mb-4" data-testid="text-maid-of-honor-title">Binibining Pandangal</h4>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
-                <div className="space-y-2">
-                  <p className="text-base md:text-lg text-foreground">Michelle Cabrera</p>
-                  <p className="text-base md:text-lg text-foreground">Charlotte Cabrera</p>
-                  <p className="text-base md:text-lg text-foreground">Abigail Cruz</p>
-                </div>
-                <div className="space-y-2">
-                  <p className="text-base md:text-lg text-foreground">Pearlyn Licmuan</p>
-                  <p className="text-base md:text-lg text-foreground">Amabelle Capurihan</p>
-                </div>
+              <div className="space-y-2">
+                <p className="text-base md:text-lg text-foreground">Charlotte Cabrera</p>
+                <p className="text-base md:text-lg text-foreground">Abigail Cruz</p>
+                <p className="text-base md:text-lg text-foreground">Pearlyn Licmuan</p>
+                <p className="text-base md:text-lg text-foreground">Amabelle Capurihan</p>
               </div>
             </div>
 

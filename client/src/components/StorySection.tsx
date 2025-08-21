@@ -82,7 +82,7 @@ const StorySection = () => {
             </div>
 
             {/* Bottom Left Image - Medium */}
-            <div className="absolute bottom-8 left-4 w-56 h-40 animate-fade-scale" style={{ animationDelay: '0.6s' }}>
+            <div className="absolute bottom-8 left-4 w-56 h-20 animate-fade-scale" style={{ animationDelay: '0.6s' }}>
               <img
                 src={storyImages[2]}
                 alt="Kenneth and Jeizl story moment 3"
@@ -116,6 +116,93 @@ const StorySection = () => {
           </div>
         </div>
       </div>
+
+      {/* New Section: Dress Code */}
+      <section id="dress-code" className="py-20 px-4 bg-background">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-5xl font-script italic text-primary mb-8" data-testid="text-dresscode-title">
+            Dress Code
+          </h2>
+          <div className="space-y-6">
+            <p className="text-lg text-foreground/85 leading-relaxed font-body mx-auto max-w-3xl" data-testid="text-dresscode-formal">
+              Ang elegansya ay walang katumbas na kaganda
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* New Section: Wedding Party */}
+      <section id="wedding-party" className="py-20 px-4 bg-background">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-5xl font-script italic text-primary mb-12" data-testid="text-weddingparty-title">
+            Wedding Party
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-12">
+            {/* Best Man */}
+            <div className="flex flex-col items-center">
+              <img
+                src="https://res.cloudinary.com/dpzxdmqqg/image/upload/v1755332473/1_o2vvio.jpg"
+                alt="Joemari Balaoro"
+                className="w-48 h-48 rounded-full object-cover shadow-lg mb-4 border-4 border-primary/70"
+                loading="lazy"
+                data-testid="img-best-man"
+              />
+              <p className="text-2xl font-bold text-primary font-script mb-2" data-testid="text-best-man-name">
+                Joemari Balaoro
+              </p>
+              <p className="text-lg text-foreground/85 font-body" data-testid="text-best-man-role">
+                Piling Maginoo
+              </p>
+              {/* List of other groomsmen */}
+              <div className="mt-4 text-foreground/70 font-body">
+                <p>Aldrin Cruz</p>
+                <p>Mark Anthony Canda</p>
+                <p>John Michael Cruz</p>
+              </div>
+            </div>
+
+            {/* Maid of Honor */}
+            <div className="flex flex-col items-center">
+              <img
+                src="https://res.cloudinary.com/dpzxdmqqg/image/upload/v1755332473/30_qv2pfq.jpg"
+                alt="Michelle Cabrera"
+                className="w-48 h-48 rounded-full object-cover shadow-lg mb-4 border-4 border-primary/70"
+                loading="lazy"
+                data-testid="img-maid-of-honor"
+              />
+              <p className="text-2xl font-bold text-primary font-script mb-2" data-testid="text-maid-of-honor-name">
+                Michelle Cabrera
+              </p>
+              <p className="text-lg text-foreground/85 font-body" data-testid="text-maid-of-honor-role">
+                Binibining Pandangal
+              </p>
+              {/* List of other bridesmaids */}
+              <div className="mt-4 text-foreground/70 font-body">
+                <p>Shara Mae Cruz</p>
+                <p>Princess Joy Catalan</p>
+                <p>Rizza Mae Reyes</p>
+              </div>
+            </div>
+
+            {/* Ring Bearer */}
+            <div className="flex flex-col items-center">
+              <img
+                src="https://res.cloudinary.com/dpzxdmqqg/image/upload/v1755332476/FB_IMG_1755006776306_h1nlot.jpg"
+                alt="Ring Bearer"
+                className="w-48 h-48 rounded-full object-cover shadow-lg mb-4 border-4 border-primary/70"
+                loading="lazy"
+                data-testid="img-ring-bearer"
+              />
+              <p className="text-2xl font-bold text-primary font-script mb-2" data-testid="text-ring-bearer-name">
+                Angelo Reyes
+              </p>
+              <p className="text-lg text-foreground/85 font-body" data-testid="text-ring-bearer-role">
+                Tagapagdala ng Singsing
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
   );
 };

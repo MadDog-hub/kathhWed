@@ -16,9 +16,9 @@ const BibleVerseSection = () => {
             style={{ fontFamily: '"Great Vibes", "Dancing Script", "Brush Script MT", cursive', fontWeight: 400, letterSpacing: '0.05em' }}
             data-testid="text-bible-verse-title"
           >
-            Pagmamahal na Walang Hanggan
+            Salita ng Panginoon
           </h2>
-          
+
           {/* Bible Verse Card */}
           <Card className="max-w-4xl mx-auto mb-12 bg-card border-primary/20 shadow-soft">
             <CardContent className="p-8 md:p-12">
@@ -51,12 +51,12 @@ const BibleVerseSection = () => {
                     }}
                     data-testid={`img-story-${index + 1}`}
                   />
-                  
+
                   {/* Polaroid Caption */}
                   <div className="mt-3 text-center">
                     <p className="text-sm text-gray-600 font-handwriting">
                       {index === 0 && "Mga Sandaling Hindi Malilimutan"}
-                      {index === 1 && "Pagmamahal na Walang Hanggan"}
+                      {index === 1 && "Simula ng Bagong Kabanata"}
                       {index === 2 && "Simula ng Bagong Kabanata"}
                     </p>
                   </div>
