@@ -26,14 +26,6 @@ const DressCodeSection = () => {
           <h2 className="font-script italic text-primary mb-8 text-[48px]" data-testid="text-dresscode-title">
             Gabay sa Kasuotan
           </h2>
-          <div className="bg-primary/10 border border-primary/20 rounded-xl p-4 max-w-sm mx-auto relative">
-            <p className="text-lg font-display font-bold text-primary mb-1">
-              PORMAL NA KASUOTAN
-            </p>
-            <p className="text-sm text-muted-foreground">
-              Ang elegansya ay walang katumbas na kaganda
-            </p>
-          </div>
         </div>
 
         {/* Dress Code Requirements */}
