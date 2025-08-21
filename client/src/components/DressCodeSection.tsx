@@ -52,9 +52,7 @@ const DressCodeSection = () => {
                   <p className="text-lg font-medium text-foreground">
                     <span className="font-bold">Ninang:</span> Modernong Filipiñana
                   </p>
-                  <p className="text-base text-muted-foreground">
-                    Kulay: Beige/Kayumanggi - may pallete
-                  </p>
+                  <p className="text-base text-muted-foreground">Kulay: Beige/Kayumanggi</p>
                 </div>
                 <img 
                   src="https://res.cloudinary.com/dhasfjr8x/image/upload/v1755613877/4798e8ec-65e6-465e-83f4-243fde834982_z7qxfo.png"
