@@ -12,10 +12,6 @@ const EntourageSection = () => {
           <h2 className="md:text-5xl font-script italic text-primary mb-4 text-[48px]" data-testid="text-entourage-title">
             Ang Aming Entourage
           </h2>
-          <p className="text-base md:text-lg text-muted-foreground font-display italic" data-testid="text-entourage-subtitle">
-            Sa pagpupuri at pasasalamat sa Panginoon<br />
-            at sa pagpapala ng aming mga magulang
-          </p>
         </div>
 
         <div className="animate-fade-up space-y-12 md:space-y-16">
@@ -41,7 +37,7 @@ const EntourageSection = () => {
           {/* Principal Sponsors */}
           <div className="border border-border rounded-2xl p-6 md:p-8 shadow-elegant bg-card">
             <h3 className="md:text-3xl font-script italic text-primary mb-6 md:mb-8 text-[30px]" data-testid="text-principal-sponsors-title">
-              Principal Sponsors (Ninong at Ninang)
+              Ninong at Ninang
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 text-center">
               <div className="space-y-2 text-center">
@@ -58,6 +54,9 @@ const EntourageSection = () => {
 
           {/* Wedding Party */}
           <div className="border border-border rounded-2xl p-6 md:p-8 shadow-elegant bg-card">
+            <h3 className="text-3xl md:text-4xl font-script italic text-primary mb-8 md:mb-12 text-center" data-testid="text-abay-title">
+              Mga Abay
+            </h3>
             <h3 className="text-2xl md:text-3xl font-script italic text-primary mb-6 md:mb-8" data-testid="text-groomsmen-title">
               Mga Abay na Lalake
             </h3>

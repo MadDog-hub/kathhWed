@@ -108,27 +108,7 @@ const DressCodeSection = () => {
           </div>
         </div>
 
-        {/* Additional Guidelines */}
-        <div className="bg-primary border border-border rounded-2xl p-8 shadow-soft max-w-3xl mx-auto">
-          <h3 className="text-lg font-display font-semibold text-primary-foreground mb-4 text-center">
-            Mga Karagdagang Gabay
-          </h3>
-          <div className="space-y-3 text-primary-foreground">
-            <p className="flex items-start gap-2">
-              <span className="text-primary-foreground mt-1">•</span>
-              <span><strong>Pormal na kasuotan</strong> - Mangyaring magsuot ng elegante para sa espesyal na okasyong ito.</span>
-            </p>
-            <p className="flex items-start gap-2">
-              <span className="text-primary-foreground mt-1">•</span>
-              <span><strong>Walang cocktail dress</strong> - Hindi angkop ang cocktail dress sa pormal na event na ito.</span>
-            </p>
-            
-            <p className="flex items-start gap-2">
-              <span className="text-primary-foreground mt-1">•</span>
-              <span>Siguraduhin na ang inyong kasuotan ay nararapat at angkop sa relihiyosong seremonya.</span>
-            </p>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

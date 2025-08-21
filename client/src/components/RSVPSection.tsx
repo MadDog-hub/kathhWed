@@ -20,33 +20,6 @@ const RSVPSection = () => {
         {/* Main RSVP Content */}
         <div className="animate-fade-up mb-12">
           <div className="border border-border rounded-2xl p-12 shadow-elegant bg-card">
-            {/* Wedding Details */}
-            <div className="grid md:grid-cols-3 gap-8 mb-8">
-              <div className="flex flex-col items-center text-center">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-3">
-                  <Calendar className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="font-display font-semibold text-primary mb-1">Petsa</h3>
-                <p className="text-muted-foreground">Oktubre 04, 2025</p>
-              </div>
-
-              <div className="flex flex-col items-center text-center">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-3">
-                  <Clock className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="font-display font-semibold text-primary mb-1">Oras</h3>
-                <p className="text-muted-foreground">3:00 PM</p>
-              </div>
-
-              <div className="flex flex-col items-center text-center">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-3">
-                  <MapPin className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="font-display font-semibold text-primary mb-1">Lugar</h3>
-                <p className="text-muted-foreground">Iglesia Ni Cristo – Lokal ng United Bayanihan</p>
-              </div>
-            </div>
-
             {/* RSVP Message */}
             <div className="space-y-6 mb-8">
               <p className="text-xl font-script italic text-primary leading-relaxed" data-testid="text-rsvp-message">
