@@ -39,16 +39,12 @@ const EntourageSection = () => {
             <h3 className="md:text-3xl font-script italic text-primary mb-6 md:mb-8 text-[30px]" data-testid="text-principal-sponsors-title">
               Ninong at Ninang
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 text-center">
-              <div className="space-y-2 text-center">
-                <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Abelardo & Marilane Capurihan</p>
-                <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Narcissus & Florina Banaticla</p>
-                <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Sonny & Jeannie Peralta</p>
-              </div>
-              <div className="space-y-2 text-center">
-                <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Charles Prado & Gemma Alegros</p>
-                <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Roque Castillo & Myla Lazo</p>
-              </div>
+            <div className="space-y-2 text-center">
+              <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Abelardo & Marilane Capurihan</p>
+              <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Narcissus & Florina Banaticla</p>
+              <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Sonny & Jeannie Peralta</p>
+              <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Charles Prado & Gemma Alegros</p>
+              <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Roque Castillo & Myla Lazo</p>
             </div>
           </div>
 
