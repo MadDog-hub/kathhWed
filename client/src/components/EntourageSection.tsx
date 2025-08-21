@@ -44,6 +44,8 @@ const EntourageSection = () => {
                 <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Abelardo & Marilane Capurihan</p>
                 <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Narcissus & Florina Banaticla</p>
                 <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Sonny & Jeannie Peralta</p>
+              </div>
+              <div className="space-y-2 text-center">
                 <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Charles Prado & Gemma Alegros</p>
                 <p className="text-base md:text-lg text-foreground" data-testid="text-principal-sponsor">Roque Castillo & Myla Lazo</p>
               </div>
