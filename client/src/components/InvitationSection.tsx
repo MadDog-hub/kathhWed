@@ -27,9 +27,7 @@ const InvitationSection = () => {
           {/* Date, Time, Location */}
           <div className="space-y-4 max-w-lg mx-auto mb-8">
             <div className="text-center space-y-2">
-              <p className="text-3xl md:text-4xl lg:text-5xl font-script italic font-normal text-foreground" data-testid="text-wedding-date-detail">
-                Oktubre 04, 2025 | 3:00 PM
-              </p>
+              <p className="text-3xl md:text-4xl lg:text-5xl font-script italic font-normal text-foreground" data-testid="text-wedding-date-detail">Oktubre 04, 2025 | 2:30 PM</p>
               <p className="text-2xl md:text-3xl lg:text-4xl font-script italic font-normal text-foreground" data-testid="text-wedding-location">
                 Iglesia Ni Cristo – Lokal ng United Bayanihan
               </p>
