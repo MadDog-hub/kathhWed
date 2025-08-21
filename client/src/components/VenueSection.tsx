@@ -12,7 +12,7 @@ const VenueSection = () => {
       description: 'Dito namin ipapangako ang aming pagmamahal sa harap ng Panginoon.',
       details: 'Mangyaring dumating ng maaga upang makaupo bago magsimula ang seremonya.',
       additionalInfo: 'UNPLUGGED CEREMONY - Huwag po kayong gumamit ng camera sa seremonya para maging present tayong lahat.',
-      startTime: '3:00 PM',
+      startTime: '2:30 PM',
       locationGuide: 'Gabay sa Lokasyon →'
     },
     {

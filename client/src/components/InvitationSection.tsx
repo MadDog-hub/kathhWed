@@ -20,7 +20,7 @@ const InvitationSection = () => {
         {/* Main Invitation Text */}
         <div className="space-y-8">
           <h2 className="text-4xl md:text-5xl font-display leading-tight tracking-wider text-foreground" data-testid="text-invitation-title">
-            AY SA WAKAS<br />
+            AT SA WAKAS<br />
             MASASAMBIT NA ANG "<em className="font-script italic">OPO, TINATANGGAP KO</em>"
           </h2>
           
