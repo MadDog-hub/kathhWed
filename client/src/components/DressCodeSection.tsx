@@ -1,10 +1,11 @@
 const DressCodeSection = () => {
   const dressCodeColors = [
-    { color: '#D2B48C', hex: '#D2B48C' },
-    { color: '#FFCBBC', hex: '#FFCBBC' },
-    { color: '#DDB398', hex: '#DDB398' },
-    { color: '#F5F5DC', hex: '#F5F5DC' },
-    { color: '#F8C5AD', hex: '#F8C5AD' }
+    { color: '#EADBDD', hex: '#EADBDD' },
+    { color: '#FCD5CE', hex: '#FCD5CE' },
+    { color: '#FFCAD4', hex: '#FFCAD4' },
+    { color: '#FADDE1', hex: '#FADDE1' },
+    { color: '#FFF1F5', hex: '#FFF1F5' },
+    { color: '#F6EEE9', hex: '#F6EEE9' }
   ];
 
   return (
@@ -84,7 +85,7 @@ const DressCodeSection = () => {
             <p className="text-muted-foreground text-center mb-8">
               Isaalang-alang ang mga magagandang kulay na ito sa pagpili ng kasuotan
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 max-w-md mx-auto">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6 max-w-2xl mx-auto">
               {dressCodeColors.map((colorItem, index) => (
                 <div key={index} className="text-center group">
                   <div 
