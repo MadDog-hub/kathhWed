@@ -51,7 +51,7 @@ const InvitationSection = () => {
         <div className="space-y-8 max-w-lg mx-auto mt-16">
           <div className="text-center space-y-4">
             
-            <p className="text-base text-foreground/80 leading-relaxed" style={{ fontFamily: '"Times New Roman", serif' }}>#kayRENZELKATHYnadhana</p>
+            <p className="text-foreground/80 text-[17px]" style={{ fontFamily: '"Times New Roman", serif' }}>#kayRENZELKATHYnadhana</p>
           </div>
         </div>
 
