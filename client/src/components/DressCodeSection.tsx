@@ -1,4 +1,5 @@
 import _531625070_1858753418023745_5424491117437935613_n from "@assets/531625070_1858753418023745_5424491117437935613_n.jpg";
+import _532247435_3782439715234054_3909830410414440963_n from "@assets/532247435_3782439715234054_3909830410414440963_n.jpg";
 const DressCodeSection = () => {
   const dressCodeColors = [
     { color: '#EADBDD', hex: '#EADBDD' },
@@ -49,7 +50,7 @@ const DressCodeSection = () => {
                   <p className="text-base text-muted-foreground">Kulay: Beige/Kayumanggi</p>
                 </div>
                 <img 
-                  src={_531625070_1858753418023745_5424491117437935613_n}
+                  src={_532247435_3782439715234054_3909830410414440963_n}
                   alt="Principal Sponsors attire guide"
                   className="w-full max-w-2xl mx-auto object-contain mb-6 rounded-lg mt-6"
                 />
